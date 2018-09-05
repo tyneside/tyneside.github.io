@@ -137,14 +137,12 @@ a{
 }
 
 .tile-padding{
-	padding: 60px;
+	padding: 30px;
 	border:  2px solid #4a4a4a4a;
 
 }
 .tile-link-padding{
-	padding: 60px;
-	border:  1px solid #4a4a4a4a;
-
+	padding: 20px; 
 }
 .tile-padding.coral,.tile-link-padding.coral{
 	border:  2px solid #ff8080;
