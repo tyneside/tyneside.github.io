@@ -41,19 +41,23 @@ img[data-src] {
 header{height: 60px;margin:0px;}
 #name{
 	position: relative;
-    font-weight: 300;
-    top: 15px;
-    left: 10px;
-    letter-spacing: 0.2em;
-    font-size: 21px;
-    z-index: 200000;
-    /* border: 0.5px solid #00000020; */
-    background-image: url(img/nameStyle.svg);
-    background-repeat: no-repeat;
-    background-position-x: 17px;
-    padding: 5px;
+	font-weight: 300;
+	top: 15px;
+	left: 10px;
+	letter-spacing: 0.2em;
+	font-size: 21px;
+	z-index: 200000;
+	/* border: 0.5px solid #00000020; */
+	background-image: url(img/nameStyle.svg);
+	background-repeat: no-repeat;
+	background-position-x: 17px;
+	padding: 5px;
+	width: 50%;
 }
-a{color:#fff}
+
+a{
+	color:#fff;
+}
 #mobileNavClose{
 	display: none;
 	color:#f00;
@@ -134,7 +138,7 @@ a{color:#fff}
 
 .tile-padding{
 	padding: 60px;
-	border:  1px solid #4a4a4a4a;
+	border:  2px solid #4a4a4a4a;
 
 }
 .tile-link-padding{
@@ -142,20 +146,37 @@ a{color:#fff}
 	border:  1px solid #4a4a4a4a;
 
 }
+.tile-padding.coral,.tile-link-padding.coral{
+	border:  2px solid #ff8080;
+/*	background:#ff8080;*/
+}
+.tile-padding.blue,.tile-link-padding.blue{
+	border:  2px solid #6ac4de;
+/*	background:#6ac4de;*/
+}
+.tile-padding.yellow,.tile-link-padding.yellow{
+	border:  2px solid #ebd153;
+/*	background:#ebd153;*/
+}
+.tile-padding.green,.tile-link-padding.green{
+	border:  2px solid #aed599;
+/*	background:#aed599;*/
+}
+
 .tile-padding.coral:hover,.tile-link-padding.coral:hover{
-	border:  1px solid #ff8080;
+	border:  2px solid #ff8080;
 	background:#ff8080;
 }
 .tile-padding.blue:hover,.tile-link-padding.blue:hover{
-	border:  1px solid #6ac4de;
+	border:  2px solid #6ac4de;
 	background:#6ac4de;
 }
 .tile-padding.yellow:hover,.tile-link-padding.yellow:hover{
-	border:  1px solid #ebd153;
+	border:  2px solid #ebd153;
 	background:#ebd153;
 }
 .tile-padding.green:hover,.tile-link-padding.green:hover{
-	border:  1px solid #aed599;
+	border:  2px solid #aed599;
 	background:#aed599;
 }
 /*CONTACT SECTION END*/
@@ -170,6 +191,7 @@ a{color:#fff}
 		left: 10px;
 		font-size: 22px;
 	}
+
 	#mainNav{
 		border-right: 270px solid #ff8080;
 		border-bottom: 270px solid transparent;
@@ -178,7 +200,7 @@ a{color:#fff}
 		 width: 270px;
 	}
 	.tile-padding{
-		padding: 110px;
+		padding: 100px 0px 100px 0px;
 	}
 }
 
