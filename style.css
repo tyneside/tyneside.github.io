@@ -116,8 +116,8 @@ header{margin:0px;}
 }
 #contentBtm{
     position: absolute;
-    bottom: 5%;
-    right: 5%;
+    bottom: 15px;
+    right: 15px;
     letter-spacing: 0.2em;
 }
 #About p{
@@ -243,6 +243,8 @@ a{
 header{height: 100vh;margin:0px;}
 #contentBtm{
     bottom: 10%;
+    right: 5%;
+
 }
     #headerContent .container{
    padding: 5rem 0rem 5rem 0rem; 
