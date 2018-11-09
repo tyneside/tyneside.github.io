@@ -1,0 +1,42 @@
+
+#hotspot {
+    position: absolute;
+    top:0px;left:0px;
+    height: 100%;
+    width:100%;
+    cursor: pointer;
+    z-index: 150;
+} 
+
+#container{
+    position: fixed;
+    left: 0;
+    top: 0;
+	overflow: hidden;
+	width:298px;
+	height: 248px;
+    border:1px solid #000000;
+	background: #d02037;
+}
+#bgMeterTxt{
+	opacity: 0.8;
+}
+.startZero{
+	opacity:0;
+}
+
+#bg #svg{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#bg .logo{
+    width: 253px;
+    height: auto;
+    position: absolute;
+    top: 85px;
+    left: 23px;
+}

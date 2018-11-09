@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img[src$=".gif"], img[src$=".png"] {
+                   image-rendering: -moz-crisp-edges;         /* Firefox */
+                   image-rendering:   -o-crisp-edges;         /* Opera */
+                   image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+                   image-rendering: optimizeQuality;
+                   /*-ms-interpolation-mode: nearest-neighbor;   IE (non-standard property) */
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}x
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+body, body * {
+	vertical-align: baseline;border: 0;outline: 0;padding: 0;margin: 0;
+    /* PLEASE CHANGE THE PROPERTIES IF NEEDED BELOW BUT DO NOT REMOVE TOTALLY */
+    font-family: sans-serif; 
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#container_dc {
+    z-index:20;position: absolute;top: 0px;left: 0px;margin: auto;overflow: hidden;
+    /* PLEASE CHANGE THE PROPERTIES IF NEEDED BELOW BUT DO NOT REMOVE TOTALLY */
+    width: 298px;
+	height:248px;
+    background-color: #000000;
+    border:1px solid #999;
+}
+#content_dc {
+	position: absolute;
+    width: 298px;
+    height:248px;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    overflow: hidden;
+}
+#hotspot {
+    position: absolute;
+    top:0px;left:0px;
+    height: 100%;
+    width:100%;
+    cursor: pointer;
+    z-index: 150;
+} /* DO NOT REMOVE OR CHANGE */
+
+#SVG{
+    height: 240px;
+    width: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -100px;
+    top: 5px;
+}
+#logo{
+	background-image: url(_img/logo.svg);
+    height: 30px;
+    width: 87px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 198px;
+    top: 203px;
+}
+#cultureTxt{
+	background-image: url(_img/cultureTxt.svg);
+    height: 24px;
+    width: 118px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 19px;
+    top: 209px;
+}
+.startZero{
+    opacity: 0;
+}

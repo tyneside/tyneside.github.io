@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img[src$=".gif"], img[src$=".png"] {
+                   image-rendering: -moz-crisp-edges;         /* Firefox */
+                   image-rendering:   -o-crisp-edges;         /* Opera */
+                   image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+                   image-rendering: optimizeQuality;
+                   /*-ms-interpolation-mode: nearest-neighbor;   IE (non-standard property) */
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}x
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+body, body * {
+	vertical-align: baseline;border: 0;outline: 0;padding: 0;margin: 0;
+    /* PLEASE CHANGE THE PROPERTIES IF NEEDED BELOW BUT DO NOT REMOVE TOTALLY */
+    font-family: sans-serif; 
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#container_dc {
+    z-index:20;position: absolute;top: 0px;left: 0px;margin: auto;overflow: hidden;
+    /* PLEASE CHANGE THE PROPERTIES IF NEEDED BELOW BUT DO NOT REMOVE TOTALLY */
+    width: 298px;
+	height:248px;
+    background-color: #ffffff;
+    border:1px solid #000000;
+}
+#content_dc {
+	position: absolute;
+    width: 298px;
+    height:248px;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    overflow: hidden;
+}
+#hotspot {
+    position: absolute;
+    top:0px;left:0px;
+    height: 100%;
+    width:100%;
+    cursor: pointer;
+    z-index: 150;
+} /* DO NOT REMOVE OR CHANGE */
+#ice_clean{
+    position: absolute;
+    top:-1px;
+    left:-1px;
+    background-image: url(_img/ice_clean.jpg);
+/*    background-repeat: no-repeat;*/
+    width:300px;
+    height:250px;
+}
+#ice_blur_top{
+    position: absolute;
+    background-image: url(_img/ice_blur_top.jpg);
+    background-repeat: no-repeat;
+    top:-1px;
+    left:-1px;
+    width: 300px;
+    height:125px;
+    clip:rect(0px 300px 125px 0px);
+}
+#ice_blur_btm{
+    position: absolute;
+    background-image: url(_img/ice_blur_btm.jpg);
+    background-repeat: no-repeat;
+    top:124px;
+    left:-1px;
+    width: 300px;
+    height:125px;
+    clip:rect(0px 300px 125px 0px);
+}
+#puck{
+    position: absolute;
+    top:143px;
+    left:194px;
+    background-image: url(_img/puck.png);
+    width: 111px;
+    height:111px;
+    background-repeat: no-repeat;
+}
+/*
+#puck_shadow{
+    position: absolute;
+    top:-7px;
+    left:601px;
+    background-image: url(_img/puck_shadow.png);
+    width: 116px;
+    height:115px;
+    background-repeat: no-repeat;
+}
+*/
+#zamboni{
+    position: absolute;
+    top:-1px;
+    left:350px;
+    background-image: url(_img/zamboni.png);
+    width: 241px;
+    height:125px;
+    background-repeat: no-repeat;
+}
+#legal{
+    position: absolute;
+    top:228px;
+    left:4px;
+    width: 153px;
+    height:16px;
+    background-repeat: no-repeat;
+}

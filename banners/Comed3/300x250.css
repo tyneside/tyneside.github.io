@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img[src$=".gif"], img[src$=".png"] {
+                   image-rendering: -moz-crisp-edges;         /* Firefox */
+                   image-rendering:   -o-crisp-edges;         /* Opera */
+                   image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+                   image-rendering: optimizeQuality;
+                   /*-ms-interpolation-mode: nearest-neighbor;   IE (non-standard property) */
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}x
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+body, body * {
+	vertical-align: baseline;border: 0;outline: 0;padding: 0;margin: 0;
+    /* PLEASE CHANGE THE PROPERTIES IF NEEDED BELOW BUT DO NOT REMOVE TOTALLY */
+    font-family: sans-serif; 
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#container_dc {
+    z-index:20;position: absolute;top: 0px;left: 0px;margin: auto;overflow: hidden;
+    /* PLEASE CHANGE THE PROPERTIES IF NEEDED BELOW BUT DO NOT REMOVE TOTALLY */
+    width: 298px;
+	height:248px;
+    background-color: #66d1c6;
+    border:1px solid #000000;
+}
+#content_dc {
+	position: absolute;
+    width: 298px;
+    height:248px;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    overflow: hidden;
+}
+#hotspot {
+    position: absolute;
+    top:0px;left:0px;
+    height: 100%;
+    width:100%;
+    cursor: pointer;
+    z-index: 150;
+} /* DO NOT REMOVE OR CHANGE */
+#girl1{
+    background-image: url(_img/girl1.png);
+    height: 244px;
+    width: 259px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:-300px;
+    bottom: 0;
+}
+#girl2{
+    background-image: url(_img/girl2.png);
+    height: 243px;
+    width: 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:-300px;
+    bottom: 0;
+}
+#girl3{
+    background-image: url(_img/girl3.png);
+    height: 245px;
+    width: 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:-300px;
+    bottom: 0;
+}
+#logo{
+    background-image: url(_img/logo.svg);
+    height: 73px;
+    width: 195px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 89px;
+    left: 49px;
+}
+#logo2{
+    background-image: url(_img/logo.svg);
+    height: 73px;
+    width: 195px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 61px;
+    left: 49px;
+}
+#cta{
+    background-image: url(_img/cta.svg);
+    height: 48px;
+    width: 140px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 156px;
+    left: 77px;
+}
+#bg{
+    background-image: url(_img/bg.svg);
+    height: 250px;
+    width: 2140px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:-1780px;
+}
+#bg2{
+    background-image: url(_img/bg2.svg);
+    height: 250px;
+    width: 1260px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:-1260px;
+}
+#txt1{
+    background-image: url(_img/txt1.png);
+    height: 183px;
+    width: 168px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:21px;
+    top: 26px;
+}
+#txt2{
+    background-image: url(_img/txt2.png);
+    height: 171px;
+    width: 221px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:21px;
+    top: 26px;
+}
+#racing_stripe_btm{
+    background-image: url(_img/racing_stripe_btm.svg);
+    height: 41px;
+    width: 152px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 18px;
+    top: 119px;
+}
+#racing_stripe_top{
+    background-image: url(_img/racing_stripe_top.svg);
+    height: 26px;
+    width: 135px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 30px;
+    top: 89px;
+}
+#racing_stripe_btm2{
+    background-image: url(_img/racing_stripe_btm.svg);
+    height: 41px;
+    width: 152px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -218px;
+    top: 42px;
+}
+#racing_stripe_top2{
+    background-image: url(_img/racing_stripe_top.svg);
+    height: 26px;
+    width: 135px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -230px;
+    top: 11px;
+}
+#racing_stripe_btm3{
+    background-image: url(_img/racing_stripe_btm.svg);
+    height: 41px;
+    width: 152px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -218px;
+    top: 212px;
+}
+#racing_stripe_top3{
+    background-image: url(_img/racing_stripe_top.svg);
+    height: 26px;
+    width: 135px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -230px;
+    top: 181px;
+}
+#racing_stripe_btm_last{
+    background-image: url(_img/racing_stripe_btm.svg);
+    height: 41px;
+    width: 152px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 18px;
+    top: 91px;
+}
+#racing_stripe_top_last{
+    background-image: url(_img/racing_stripe_top.svg);
+    height: 26px;
+    width: 135px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 30px;
+    top: 61px;
+}
+#red_mask{
+    height: 200px;
+    width: 535px;
+     background-color: #ea5563; 
+/*    background-color: #000;*/
+    position: absolute;
+    left: 96px;
+    top: 36px;
+    transform: skewX(-12deg);
+}
+.startZero{
+    opacity: 0;
+}

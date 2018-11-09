@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img[src$=".gif"], img[src$=".png"] {
+                   image-rendering: -moz-crisp-edges;         /* Firefox */
+                   image-rendering:   -o-crisp-edges;         /* Opera */
+                   image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+                   image-rendering: optimizeQuality;
+                   /*-ms-interpolation-mode: nearest-neighbor;   IE (non-standard property) */
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}x
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+body, body * {
+	vertical-align: baseline;border: 0;outline: 0;padding: 0;margin: 0;
+    /* PLEASE CHANGE THE PROPERTIES IF NEEDED BELOW BUT DO NOT REMOVE TOTALLY */
+    font-family: sans-serif; 
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#container_dc {
+    z-index:20;position: absolute;top: 0px;left: 0px;margin: auto;overflow: hidden;
+    /* PLEASE CHANGE THE PROPERTIES IF NEEDED BELOW BUT DO NOT REMOVE TOTALLY */
+    width: 298px;
+	height:248px;
+    background-color: #ffde00;
+    border:1px solid #000000;
+}
+#content_dc {
+	position: absolute;
+    width: 298px;
+    height:248px;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    overflow: hidden;
+}
+#hotspot {
+    position: absolute;
+    top:0px;left:0px;
+    height: 100%;
+    width:100%;
+    cursor: pointer;
+    z-index: 150;
+} /* DO NOT REMOVE OR CHANGE */
+
+/*
+#bg{
+    background-image: url(_img/bg.jpg);
+    height: 250px;
+    width: 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+*/
+#logo{
+    background-image: url(_img/logo.png);
+    height: 43px;
+    width: 74px;
+    background-repeat: no-repeat;
+	background-size: contain;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+}
+#pack{
+    background-image: url(_img/pack.png);
+    height: 204px;
+    width: 286px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 13px;
+    top: 42px;
+    /*	transform: scale(0.8);*/
+}
+#eggo{
+    background-image: url(_img/eggo.png);
+    height: 221px;
+    width: 181px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 65px;
+    top: 0px;
+}
+#eggoBlur{
+    background-image: url(_img/eggoBlur.png);
+    height: 84px;
+    width: 72px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 190px;
+    top: 66px;
+    background-size: contain;
+    transform: scale(0.2);
+    -ms-transform: rotate(-26deg); /* IE 9 */
+    -webkit-transform: rotate(-26deg); /* Chrome, Safari, Opera */
+    transform: rotate(-26deg);
+}
+#txt1{
+    background-image: url(_img/txt1.png);
+    height: 53px;
+    width: 228px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 35px;
+    top: 197px;
+    background-size: contain;
+}
+#starWrap{
+    height: 0px;
+/*  	box-sizing: border-box;*/
+    width: 273px;
+	overflow: hidden;
+    position: absolute;
+    left: 23px;
+    bottom: 0px;
+}
+#stars1{
+    background-image: url(_img/stars1.png);
+    height: 250px;
+    width: 273px;
+    background-repeat: no-repeat;
+	background-size: contain;
+    position: absolute;
+    left: 23px;
+    top: 0px;
+
+}
+#stars2{
+    background-image: url(_img/stars2.png);
+    height: 250px;
+    width: 296px;
+    background-repeat: no-repeat;
+	background-size: contain;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+#sparkle{
+    background-image: url(_img/sparkle.png);
+    width:29px;
+    height:30px;
+    position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+   
+}
+.s1{
+    left: 229px;
+    top: 88px;
+}
+.s2{
+    left: 67px;
+    top: 50px;
+}
+.s3{
+    left: 91px;
+    top: 96px;
+}
+.s4{
+      left: 110px;
+      top: 149px;
+}
+.s5{
+       left: 170px;
+       top: 179px;
+}
+.s6{
+    left: 219px;
+    top: 68px;
+}
+.s7{
+    left: 47px;
+    top: 50px;
+}
+.s8{
+    left: 121px;
+    top: 136px;
+}
+.s9{
+      left: 80px;
+      top: 129px;
+}
+.s10{
+       left: 200px;
+       top: 169px;
+}
+.startZero{
+    opacity: 0;
+}

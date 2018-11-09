@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img[src$=".gif"], img[src$=".png"] {
+                   image-rendering: -moz-crisp-edges;         /* Firefox */
+                   image-rendering:   -o-crisp-edges;         /* Opera */
+                   image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+                   image-rendering: optimizeQuality;
+                   /*-ms-interpolation-mode: nearest-neighbor;   IE (non-standard property) */
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+x:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+body, body * {
+	vertical-align: baseline;border: 0;outline: 0;padding: 0;margin: 0;
+    /* PLEASE CHANGE THE PROPERTIES IF NEEDED BELOW BUT DO NOT REMOVE TOTALLY */
+    font-family: sans-serif; 
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#container_dc {
+    z-index:20;position: absolute;top: 0px;left: 0px;margin: auto;overflow: hidden;
+    /* PLEASE CHANGE THE PROPERTIES IF NEEDED BELOW BUT DO NOT REMOVE TOTALLY */
+    width: 298px;
+	height:248px;
+    border:1px solid #000000;
+}
+
+#content_dc {
+	background-image: url(img/background.jpg);
+	background-size: contain;
+	position: absolute;
+	width: 298px;
+	height:248px;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	overflow: hidden;
+}
+
+#hotspot {
+    position: absolute;
+    top:0px;left:0px;
+    height: 100%;
+    width:100%;
+    cursor: pointer;
+    z-index: 150;
+}
+
+#bowl {
+	background-image: url(img/Red%20Berry%20Bowl.png);
+	background-size: contain;
+	position: absolute;
+	left: 23px;
+	top: 102px;
+	width: 255px;
+	height: 255px;
+	z-index: 18;
+}
+
+#bvitamens{
+	position: absolute;
+	left: 77px;
+	top: 30px;
+	width: 197px;
+	height: 73px;
+	z-index: 23;
+}
+
+.bvit{
+	transform-origin:center;
+}
+
+#energize{
+	position: absolute;
+	left: 83px;
+	top: 30px;
+	width: 196px;
+	height: 75px;
+	z-index: 14;
+	transform: rotate(20deg);
+}
+
+#tealStar4 {
+	background-image: url(img/tealStar.png);
+	background-size: contain;
+	position: absolute;
+	left: 108px;
+	top: 25px;
+	width: 22px;
+	height: 22px;
+	z-index: 5;
+	transform: rotate(14deg);
+}
+
+#tealStar3 {
+	background-image: url(img/tealStar.png);
+	background-size: contain;
+	position: absolute;
+	left: 128px;
+	top: 20px;
+	height: 21px;
+	width: 21px;
+	z-index: 5;
+	transform: rotate(-4deg);
+}
+
+#tealStar2 {
+	background-image: url(img/tealStar.png);
+	background-size: contain;
+	position: absolute;
+	left: 138px;
+	top: 38px;
+	width: 28px;
+	height: 28px;
+	z-index: 5;
+	transform: rotate(14deg);
+}
+
+#tealStar1 {
+	background-image: url(img/tealStar.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 246px;
+	top: 116px;
+	width: 40px;
+	height: 42px;
+}
+
+#tealBolt {
+	background-image: url(img/tealBolt.png);
+	background-size: contain;
+	position: absolute;
+	background-repeat: no-repeat;
+	left: 61px;
+	top: 85px;
+	width: 43px;
+	height: 50px;
+	z-index: 500;
+	transform: rotate(-47deg);
+}
+
+#pinkStar{
+	background-image: url(img/pinkStar.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 222px;
+	top: 100px;
+	width: 26px;
+	height: 26px;
+}
+
+#pinkBolt{
+	background-image: url(img/pinkBolt.png);
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 17px;
+	top: 94px;
+	width: 51px;
+	height: 65px;
+	z-index: 20;
+}
+
+#cerealpacks{
+	background-image: url(img/boxes.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 30px;
+	top: 78px;
+	width: 245px;
+	height: 145px;
+	z-index: 5;
+}
+
+#poweryou{
+	background-image: url(img/txt3.png);
+	position: absolute;
+	left: 169px;
+	top: 23px;
+	width: 111px;
+	height: 50px;
+	z-index: 3;
+}
+
+#logo{
+	position: absolute;
+	left: 9px;
+	top: 8px;
+	width: 72px;
+	height: 75px;
+	z-index: 19;
+}
+
+/*DO NOT REMOVE OR CHANGE */
+.startZero{
+    opacity: 0;
+}
