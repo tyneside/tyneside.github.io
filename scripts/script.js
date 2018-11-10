@@ -32,6 +32,17 @@ $(document).ready(function(){
       autoplay: true,
       autoplaySpeed: 3000,
     });
+
+    $('.dmb-album').slick({
+      dots: false,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      adaptiveHeight: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+    });
   
         $(function() {
           $('a[href*="#"]:not([href="#"])').click(function() {
