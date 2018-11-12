@@ -63,14 +63,14 @@ body, body * {
     position: absolute;
     top:-1px;
     left:-1px;
-    background-image: url(_img/ice_clean.jpg);
+    background-image: url(img/iceclean.jpg);
 /*    background-repeat: no-repeat;*/
     width:300px;
     height:250px;
 }
 #ice_blur_top{
     position: absolute;
-    background-image: url(_img/ice_blur_top.jpg);
+    background-image: url(img/iceblurtop.jpg);
     background-repeat: no-repeat;
     top:-1px;
     left:-1px;
@@ -80,7 +80,7 @@ body, body * {
 }
 #ice_blur_btm{
     position: absolute;
-    background-image: url(_img/ice_blur_btm.jpg);
+    background-image: url(img/iceblurbtm.jpg);
     background-repeat: no-repeat;
     top:124px;
     left:-1px;
@@ -92,7 +92,7 @@ body, body * {
     position: absolute;
     top:143px;
     left:194px;
-    background-image: url(_img/puck.png);
+    background-image: url(img/puck.png);
     width: 111px;
     height:111px;
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ body, body * {
     position: absolute;
     top:-7px;
     left:601px;
-    background-image: url(_img/puck_shadow.png);
+    background-image: url(img/puck_shadow.png);
     width: 116px;
     height:115px;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ body, body * {
     position: absolute;
     top:-1px;
     left:350px;
-    background-image: url(_img/zamboni.png);
+    background-image: url(img/zamboni.png);
     width: 241px;
     height:125px;
     background-repeat: no-repeat;

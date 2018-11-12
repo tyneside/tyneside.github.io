@@ -39,7 +39,7 @@ body, body * {
     /* PLEASE CHANGE THE PROPERTIES IF NEEDED BELOW BUT DO NOT REMOVE TOTALLY */
     width: 298px;
 	height:248px;
-    background-image: url(_img/bg.jpg);
+    background-image: url(img/bg.jpg);
     border:1px solid #000000;
 }
 #content_dc {
@@ -62,7 +62,7 @@ body, body * {
 }  
 /*DO NOT REMOVE OR CHANGE */
 #logo{
-    background-image: url(_img/logo.svg);
+    background-image: url(img/logo.svg);
     width: 75px;
     height: 35px;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ body, body * {
     top: 210px;
 }
 #bg2{
-    background-image: url(_img/bg2.jpg);
+    background-image: url(img/bg2.jpg);
     width: 300px;
     height: 250px;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ body, body * {
     top: 0px;
 }
 #txt1{
-    background-image: url(_img/txt1.png);
+    background-image: url(img/txt1.png);
     width: 222px;
     height: 55px;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ body, body * {
     top: 3px;
 }
 #coors{
-    background-image: url(_img/coors.png);
+    background-image: url(img/coors.png);
     width: 56px;
     height: 91px;
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ body, body * {
     bottom: 0px;
 }
 #redds{
-    background-image: url(_img/redds.png);
+    background-image: url(img/redds.png);
     width: 61px;
     height: 168px;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ body, body * {
     bottom: 0px;
 }
 #blue_moon{
-    background-image: url(_img/blue_moon.png);
+    background-image: url(img/bluemoon.png);
     width: 62px;
     height: 169px;
     background-repeat: no-repeat;
@@ -122,7 +122,7 @@ body, body * {
     bottom: 0px;
 }
 #burg1{
-    background-image: url(_img/burg1.png);
+    background-image: url(img/burg1.png);
     width: 91px;
     height: 75px;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ body, body * {
     bottom: 0px;
 }
 #burg2{
-    background-image: url(_img/burg2.png);
+    background-image: url(img/burg2.png);
     width: 103px;
     height: 77px;
     background-repeat: no-repeat;
@@ -150,7 +150,7 @@ body, body * {
 	top: 49px;
 }
 #ctaTxt{
-    background-image: url(_img/ctaTxt.svg);
+    background-image: url(img/ctaTxt.svg);
     width: 61px;
     height: 13px;
     background-repeat: no-repeat;

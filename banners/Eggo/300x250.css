@@ -62,7 +62,7 @@ body, body * {
 
 /*
 #bg{
-    background-image: url(_img/bg.jpg);
+    background-image: url(img/bg.jpg);
     height: 250px;
     width: 300px;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ body, body * {
 }
 */
 #logo{
-    background-image: url(_img/logo.png);
+    background-image: url(img/logo.png);
     height: 43px;
     width: 74px;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ body, body * {
     top: 9px;
 }
 #pack{
-    background-image: url(_img/pack.png);
+    background-image: url(img/pack.png);
     height: 204px;
     width: 286px;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ body, body * {
     /*	transform: scale(0.8);*/
 }
 #eggo{
-    background-image: url(_img/eggo.png);
+    background-image: url(img/eggo.png);
     height: 221px;
     width: 181px;
     background-repeat: no-repeat;
@@ -103,7 +103,7 @@ body, body * {
     top: 0px;
 }
 #eggoBlur{
-    background-image: url(_img/eggoBlur.png);
+    background-image: url(img/eggoBlur.png);
     height: 84px;
     width: 72px;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ body, body * {
     transform: rotate(-26deg);
 }
 #txt1{
-    background-image: url(_img/txt1.png);
+    background-image: url(img/txt1.png);
     height: 53px;
     width: 228px;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ body, body * {
     bottom: 0px;
 }
 #stars1{
-    background-image: url(_img/stars1.png);
+    background-image: url(img/stars1.png);
     height: 250px;
     width: 273px;
     background-repeat: no-repeat;
@@ -147,7 +147,7 @@ body, body * {
 
 }
 #stars2{
-    background-image: url(_img/stars2.png);
+    background-image: url(img/stars2.png);
     height: 250px;
     width: 296px;
     background-repeat: no-repeat;
@@ -158,7 +158,7 @@ body, body * {
 
 }
 #sparkle{
-    background-image: url(_img/sparkle.png);
+    background-image: url(img/sparkle.png);
     width:29px;
     height:30px;
     position: absolute;

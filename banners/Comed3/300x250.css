@@ -60,7 +60,7 @@ body, body * {
     z-index: 150;
 } /* DO NOT REMOVE OR CHANGE */
 #girl1{
-    background-image: url(_img/girl1.png);
+    background-image: url(img/girl1.png);
     height: 244px;
     width: 259px;
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@ body, body * {
     bottom: 0;
 }
 #girl2{
-    background-image: url(_img/girl2.png);
+    background-image: url(img/girl2.png);
     height: 243px;
     width: 300px;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ body, body * {
     bottom: 0;
 }
 #girl3{
-    background-image: url(_img/girl3.png);
+    background-image: url(img/girl3.png);
     height: 245px;
     width: 300px;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ body, body * {
     bottom: 0;
 }
 #logo{
-    background-image: url(_img/logo.svg);
+    background-image: url(img/logo.svg);
     height: 73px;
     width: 195px;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ body, body * {
     left: 49px;
 }
 #logo2{
-    background-image: url(_img/logo.svg);
+    background-image: url(img/logo.svg);
     height: 73px;
     width: 195px;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@ body, body * {
     left: 49px;
 }
 #cta{
-    background-image: url(_img/cta.svg);
+    background-image: url(img/cta.svg);
     height: 48px;
     width: 140px;
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@ body, body * {
     left: 77px;
 }
 #bg{
-    background-image: url(_img/bg.svg);
+    background-image: url(img/bg.svg);
     height: 250px;
     width: 2140px;
     background-repeat: no-repeat;
@@ -122,7 +122,7 @@ body, body * {
     left:-1780px;
 }
 #bg2{
-    background-image: url(_img/bg2.svg);
+    background-image: url(img/bg2.svg);
     height: 250px;
     width: 1260px;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ body, body * {
     left:-1260px;
 }
 #txt1{
-    background-image: url(_img/txt1.png);
+    background-image: url(img/txt1.png);
     height: 183px;
     width: 168px;
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@ body, body * {
     top: 26px;
 }
 #txt2{
-    background-image: url(_img/txt2.png);
+    background-image: url(img/txt2.png);
     height: 171px;
     width: 221px;
     background-repeat: no-repeat;
@@ -148,7 +148,7 @@ body, body * {
     top: 26px;
 }
 #racing_stripe_btm{
-    background-image: url(_img/racing_stripe_btm.svg);
+    background-image: url(img/racingstripebtm.svg);
     height: 41px;
     width: 152px;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ body, body * {
     top: 119px;
 }
 #racing_stripe_top{
-    background-image: url(_img/racing_stripe_top.svg);
+    background-image: url(img/racingstripetop.svg);
     height: 26px;
     width: 135px;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ body, body * {
     top: 89px;
 }
 #racing_stripe_btm2{
-    background-image: url(_img/racing_stripe_btm.svg);
+    background-image: url(img/racingstripebtm.svg);
     height: 41px;
     width: 152px;
     background-repeat: no-repeat;
@@ -175,7 +175,7 @@ body, body * {
     top: 42px;
 }
 #racing_stripe_top2{
-    background-image: url(_img/racing_stripe_top.svg);
+    background-image: url(img/racingstripetop.svg);
     height: 26px;
     width: 135px;
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@ body, body * {
     top: 11px;
 }
 #racing_stripe_btm3{
-    background-image: url(_img/racing_stripe_btm.svg);
+    background-image: url(img/racing_stripe_btm.svg);
     height: 41px;
     width: 152px;
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@ body, body * {
     top: 212px;
 }
 #racing_stripe_top3{
-    background-image: url(_img/racing_stripe_top.svg);
+    background-image: url(img/racingstripetop.svg);
     height: 26px;
     width: 135px;
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ body, body * {
     top: 181px;
 }
 #racing_stripe_btm_last{
-    background-image: url(_img/racing_stripe_btm.svg);
+    background-image: url(img/racingstripebtm.svg);
     height: 41px;
     width: 152px;
     background-repeat: no-repeat;
@@ -211,7 +211,7 @@ body, body * {
     top: 91px;
 }
 #racing_stripe_top_last{
-    background-image: url(_img/racing_stripe_top.svg);
+    background-image: url(img/racingstripetop.svg);
     height: 26px;
     width: 135px;
     background-repeat: no-repeat;
