@@ -17,12 +17,17 @@
   height: 100%;
 }
 */
-
-
-
-.ad_title:hover{
-    cursor: pointer;
+body{
+cursor: url(img/cursor.png), auto;
 }
+body a{
+    cursor: url(img/cursor2.png), auto;
+}
+body a:hover{
+    cursor: url(img/cursor2.png), auto;
+}
+.ad_title:hover{
+cursor: url(img/cursor2.png), auto;}
 
 .ad_title {
 	z-index: 1500;
@@ -87,13 +92,28 @@ body{
 	background-image: url(img/noise.png);
 	background-repeat: repeat;
     overflow: hidden;
+    background-attachment: fixed;
 }
-#mainHeader{height: 100vh;margin:0px;}
+#mainHeader{
+    height: 100vh;
+    overflow: hidden;
+/*    background: #ff0;*/
+    position: relative;
+/*
+    background-image: url(img/main.svg);    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+*/
+    margin:0px;
+}
 .boldest{
     font-weight: 700;
 }
 .title{
     letter-spacing: 0.15em;
+    color:#2a2a2a;
 }
 .lightest{
 	font-weight: 300;
@@ -114,9 +134,39 @@ body{
     color: #fff;
     border-radius: 0px;
     letter-spacing: 0.2em;
+    outline: none;
+    border: none;
+    cursor: url(img/cursor.png), auto;
+
+    
 }
 .resumeBtn:hover{
     color: #fff;
+    cursor: url(img/cursor2.png), auto;
+
+}
+.resumeBtn:active{
+    color: #fff;
+    outline: none;
+    border:none;
+    box-shadow: none;
+
+}
+.button:focus:not(:active) {
+    box-shadow: none;
+}
+.resumeBtn:visited{
+    color: #fff;
+    outline: none;
+    border:none;
+    box-shadow: none;
+
+}
+.resumeBtn:focus{
+    color: #fff;
+    outline: none;
+    border:none;
+    box-shadow: none;
 }
 .section.is-medium {
     padding: 5rem 1.5rem;
@@ -184,15 +234,19 @@ header{margin:0px;}
     width: 227px;
     height: 110px;
     z-index: 200000;
-    background-image: url(img/logo.svg);
+/*    background-image: url(img/logo.svg);*/
     background-repeat: no-repeat;
 }
 
 #headerContent .container{
    padding: 0rem 0rem 5rem 0rem; 
 }
+
 #headerImg{
-   max-width: 135%;
+    position: fixed;
+    width: 189%;
+    top: 15%;
+    left: 20px;
 }
 #headerContent{
     padding-top:0px;
@@ -227,8 +281,9 @@ a{
 	font-size:18px;
 	z-index:  200000;
 	position: fixed;
-	cursor: pointer;
     transform: scale(0);
+    cursor: url(img/cursor2.png), auto;
+
 }
 #mobileNav{
     color:#fff;
@@ -240,7 +295,7 @@ a{
     font-size:18px;
     z-index:  200000;
     position: fixed;
-    cursor: pointer;
+    cursor: url(img/cursor2.png), auto;
 }
 .footer {
     background-color: #9ae9ef6b;
@@ -262,14 +317,9 @@ a{
     position: fixed;
     right: -300px;
     top:0;
-    /* width: 300px; */
     padding: -2px;
     height: 300px;
-    /* background-color: #000000; */
-    /* border-bottom: 5px solid #663600; */
-    /* border-left: 5px solid #00d800; */
     z-index: 100000;
-    /* text-align: center; */
     text-transform: uppercase;
     width: 0px;
     height: 0;
@@ -318,7 +368,10 @@ a{
 
 @media (min-width: 420px){
 #headerImg{
-   max-width: 110%;
+  position: absolute;
+  width: 93%;
+    left:3%;
+    top:11%;
 }
 }
 
@@ -326,7 +379,7 @@ a{
 @media (min-width: 680px){
 header{height: 100px;margin:0px;}
 #contentBtm{
-    bottom: 10%;
+    bottom: 5%;
     right: 5%;
 
 }
@@ -338,12 +391,16 @@ header{height: 100px;margin:0px;}
     background-repeat:no-repeat;
     width:20px;
     height:80px;
+    cursor: url(img/cursor2.png), auto;
+
 }
 .slick-next, .slick-next:hover, .slick-next:active, .slick-next:focus {
     background-image: url(img/arrowNext.svg);
     background-repeat:no-repeat;
     width:20px;
     height:80px;
+    cursor: url(img/cursor2.png), auto;
+
 }
 .artHeight{
     max-height: 500px;
@@ -364,7 +421,6 @@ header{height: 100px;margin:0px;}
     width: 287px;
     height: 107px;
     z-index: 200000;
-    background-image: url(img/logo.svg);
     background-repeat: no-repeat;
 }
 	#mainNav{
@@ -375,12 +431,12 @@ header{height: 100px;margin:0px;}
 		 width: 270px;
 	}
 	.tile-padding{
-    padding: 70px 0px 70px 0px;
+    padding: 100px 0px 100px 0px;
     background: #2a2a2a00;
     border: 5px solid #2a2a2a;
 	}
 	.tile-padding:hover{
-    background: #fbf8a173;
+    background: #faf8ab;
 	}
 }
 
@@ -424,7 +480,12 @@ header{height: 100px;margin:0px;}
     width: auto;
     margin: 0 auto;
 }
-    
+ #headerImg{
+  position: absolute;
+  width: 90%;
+    left:3%;
+    top:5%;
+}   
 }
 @media (min-width: 1480px){
 .holder {
