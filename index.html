@@ -88,8 +88,9 @@
 
     
             <div id="contentBtm" class="has-text-right">
-                <h1 class="title is-1 boldest is-marginless	">Hello</h1>
-                <p>I'm a Designer.<br>I'm a Developer.<br>I'm available for hire.</p>
+                <h1 class="title is-1 boldest is-marginless">Hello</h1>
+                <a href="#Projects"><img class="arrowDown" src="img/arrowDown.svg"></a>
+<!--                <p>I'm a Designer.<br>I'm a Developer.<br>I'm available for hire.</p>-->
             </div>
 <svg id="headerImg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840.66 450.22">
   <title>porfolio</title>
@@ -555,7 +556,7 @@
 	
  		<section id="Projects" class="section is-medium" >
 			<div class="container">
-				<h1 class="title  boldest is-size-3 is-uppercase has-text-centered paddingBtm">- Projects -</h1>
+				<h1 class="title is-size-4-mobile  boldest is-size-3 is-uppercase has-text-centered paddingBtm">- Projects -</h1>
 				<div class="columns is-multiline is-centered">
                     <div class="column is-12">
 				        <div class="columns is-multiline is-centered">
@@ -602,7 +603,7 @@
     
 		<section id="Clients" class="section is-medium" style="background: #ff55723b;">
 			<div class="container">
-				<h1 class="title  boldest is-size-3 is-uppercase has-text-centered paddingBtm">- Clients -</h1>
+				<h1 class="title is-size-4-mobile  boldest is-size-3 is-uppercase has-text-centered paddingBtm">- Clients -</h1>
 				<div class="columns is-multiline is-centered">
                     <div class="column is-10">
     				    <div class="columns is-mobile is-multiline">
@@ -650,7 +651,7 @@
     
 		<section id="Artwork" class="section is-medium" >
 			<div class="container">
-				<h1 class="title  boldest is-size-3 is-uppercase has-text-centered paddingBtm">- Artwork -</h1>
+				<h1 class="title is-size-4-mobile  boldest is-size-3 is-uppercase has-text-centered paddingBtm">- Artwork -</h1>
                       <div class="art-album">
                         <div class="artWrap"><img id="" class="artHeight" src="img/artwork/abstract1.jpg"></div>
                         <div class="artWrap"><img id="" class="artHeight" src="img/artwork/abstract2.jpg"></div>
@@ -675,7 +676,7 @@
 
 		<section id="About" class="section is-medium" style="background: #c8f2f459;">
 			<div class="container">
-				<h1 class="title  boldest is-size-3 is-uppercase has-text-centered paddingBtm">- About -</h1>
+				<h1 class="title is-size-4-mobile  boldest is-size-3 is-uppercase has-text-centered paddingBtm">- About -</h1>
 				<div class="columns is-multiline is-centered">
                     <div class="column is-4">
                         <div class="">
@@ -697,7 +698,6 @@
 			</p>
 		  </div>
 		</footer>
-
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script> 
@@ -705,6 +705,15 @@
 		<script src="scripts/MorphSVGPlugin.min.js"></script>
 		<script type="text/javascript" src="scripts/SplitText.min.js"></script>
 		<script type="text/javascript" src="scripts/script.js"></script>
+        <script>
+        var logoTl = new TimelineMax();
+        logoTl.staggerFrom(".logoletter1",0.4,{rotation:30,scale:0, ease: Back.easeOut.config(1.5)},0.2,"+=0.0")     
+              .staggerFrom(".logoletter",0.2,{rotation:30,scale:0, ease: Back.easeOut.config(1.5)},0.1,"-=0.6")     
+              .from("#mobileNav",0.6,{x:200,ease: Back.easeOut.config(1.7)},"-=1")
+              .staggerFrom(".headerSVG", 0.5, {scale:0, transformOrigin:"50% 50%",ease: Back.easeOut.config(1)},0.03,"-=1.0")
+              .from("#contentBtm",0.6,{x:320,ease: Back.easeOut.config(1.2)},"-=1.2")
+              .from(".arrowDown",0.6,{y:-30,opacity:0,ease: Back.easeOut.config(2.2)},"-=0.3")
+        </script>
 
     </body>
     

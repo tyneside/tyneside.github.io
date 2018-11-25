@@ -237,7 +237,9 @@ header{margin:0px;}
 /*    background-image: url(img/logo.svg);*/
     background-repeat: no-repeat;
 }
-
+.arrowDown{
+    padding: 10px 5px;
+}
 #headerContent .container{
    padding: 0rem 0rem 5rem 0rem; 
 }
@@ -247,6 +249,7 @@ header{margin:0px;}
     width: 189%;
     top: 15%;
     left: 20px;
+    z-index: 10;
 }
 #headerContent{
     padding-top:0px;
@@ -257,6 +260,8 @@ header{margin:0px;}
     bottom: 15px;
     right: 15px;
     letter-spacing: 0.2em;
+    z-index: 100;
+
 }
 #About p{
     letter-spacing: 0.1em;
@@ -482,7 +487,7 @@ header{height: 100px;margin:0px;}
 }
  #headerImg{
   position: absolute;
-  width: 90%;
+  width: 93%;
     left:3%;
     top:5%;
 }   
