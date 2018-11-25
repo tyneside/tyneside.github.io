@@ -360,7 +360,7 @@ a{
 .tile-padding{
     padding: 20px 0px 20px 0px;
     background: #2a2a2a00;
-    border: 5px solid #2a2a2a;
+    border: 4px solid #2a2a2a;
 }
 .tile-link-padding{
 	padding: 20px; 
@@ -438,7 +438,7 @@ header{height: 100px;margin:0px;}
 	.tile-padding{
     padding: 100px 0px 100px 0px;
     background: #2a2a2a00;
-    border: 5px solid #2a2a2a;
+    border: 4px solid #2a2a2a;
 	}
 	.tile-padding:hover{
     background: #faf8ab;
