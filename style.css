@@ -17,10 +17,10 @@
   height: 100%;
 }
 */
-body{
+html, body{
 cursor: url(img/cursor.png), auto;
 }
-body a{
+html, body a{
     cursor: url(img/cursor2.png), auto;
 }
 body a:hover{
