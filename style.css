@@ -449,7 +449,13 @@ header{height: 100px;margin:0px;}
 @media (min-width: 900px){
 .section.is-medium {
     padding: 6rem 1.5rem;
-}		
+}
+#headerImg{
+  position: absolute;
+  width: 83%;
+    left:5%;
+    top:6%;
+}   
 }
 @media (max-width: 1295px){
 .holder {
